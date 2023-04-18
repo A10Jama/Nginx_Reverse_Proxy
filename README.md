@@ -25,6 +25,6 @@ By default, Nginx comes with a directory named sites-available that stores confi
 ## to set up a reverse proxy on nginx
 
 1. First thing to do is to install and update Nginx on your VM with `sudo apt-get install nginx`
-2.Configure a new virtual host that listens on the desired port (e.g., port 80)
-3.Set up the reverse proxy in the virtual host configuration, specifying the backend server(s) to forward requests to, and any necessary proxy headers.
-4.Start or restart the Nginx service to apply the new configuration.
+2. Configure a new virtual host that listens on the desired port (e.g., port 80)
+3. Set up the reverse proxy in the virtual host configuration, specifying the backend server(s) to forward requests to, and any necessary proxy headers.
+4. Start or restart the Nginx service to apply the new configuration.
