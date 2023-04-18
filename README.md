@@ -10,7 +10,7 @@ The key difference between a reverse proxy and a proxy is the direction of the t
 A reverse proxy forwards incoming client requests to backend servers, while a proxy forwards outgoing client requests to the internet.
 
 ## Reverse Proxy Diagram
-reverse proxy typically sits between the client and the backend server, as shown in this diagram:
+A reverse proxy typically sits between the client and the backend server, as shown in this diagram:
 ![image](https://user-images.githubusercontent.com/129948378/232846048-126cd173-abf9-48f0-8344-9721a5853659.png)
 
 In this diagram, the client sends HTTP requests to the reverse proxy server, which receives the request, processes it, and forwards it to the appropriate backend server. 
