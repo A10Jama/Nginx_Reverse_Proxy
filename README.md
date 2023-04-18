@@ -19,4 +19,11 @@ The backend server processes the request and sends the response back to the reve
 The reverse proxy server can perform several functions, such as load balancing, SSL termination, content caching, and protocol translation. 
 By handling these functions, the reverse proxy can help improve the performance, security, and scalability of the application.
 
+## What is Nginx's default configuration ?
+An Nginx default configuration file includes of several important directives, such as:
+- user: Specifies the user that Nginx should run as.
+- worker_processes: Specifies the number of worker processes that Nginx should use.
+- events: Configures Nginx's event processing system.
+- http: Configures HTTP-related settings, such as sendfile, TCP options, and keepalive timeout.
+- include: Specifies additional configuration files to include.
 
