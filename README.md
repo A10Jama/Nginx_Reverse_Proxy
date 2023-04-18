@@ -20,10 +20,8 @@ The reverse proxy server can perform several functions, such as load balancing, 
 By handling these functions, the reverse proxy can help improve the performance, security, and scalability of the application.
 
 ## What is Nginx's default configuration ?
-An Nginx default configuration file includes of several important directives, such as:
-- user: Specifies the user that Nginx should run as.
-- worker_processes: Specifies the number of worker processes that Nginx should use.
-- events: Configures Nginx's event processing system.
-- http: Configures HTTP-related settings, such as sendfile, TCP options, and keepalive timeout.
-- include: Specifies additional configuration files to include.
+By default, Nginx comes with a directory named sites-available that stores configuration files for hosting various websites or web applications on the server. Typically, this folder can be found at /etc/nginx/sites-available/ on Unix-based operating systems like Linux.
 
+## to set up a reverse proxy on nginx
+
+1. First thing to do is to install and update Nginx on your VM with `sudo apt-get install nginx`
