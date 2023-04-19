@@ -1,6 +1,7 @@
 # Nginx_Reverse_Proxy
 ## What are ports?
-a reverse proxy listens on the same port as the client making the request, and then forwards the request to a different port on the backend server.
+
+A port is where network connections start and end, these are managed by a computers operating system. each port has a specific process or service and numbering them allows computers to easily differentiate between them. A reverse proxy listens on the same port as the client making the request, and then forwards the request to a different port on the backend server.
 
 ## What is a reverse proxy? How is it different to a proxy?
 A reverse proxy is a server that sits between a client and a backend server, acting as an intermediary for incoming client requests. 
